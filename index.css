@@ -1,0 +1,110 @@
+.background {
+    width: 360px; 
+    height: 640px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.text_box {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: AppleSDGothicNeoEB00;
+}
+
+.top_text_box {
+    position: absolute;
+    top: 556px;
+    left: 63px;
+    width: 235px;
+    height: 28px;
+    border-radius: 10px;
+    background: #5182FF;
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bottom_text_box {
+    position: absolute;
+    top : 598px;
+    left : 0;
+    width: 360px;
+    height: 42px;
+    border-radius: 20px 20px 0px 0px;
+    background: #5182FF;
+
+
+    color: #FFFFFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.car1 {
+    position: absolute;
+    top : 532px;
+    left: 305px;
+    width: 55px;
+    height: 54px;
+    background-image: url(car.png);
+    background-size: 100% 100%;
+}
+
+.car2 {
+    position: absolute;
+    top : 37px;
+    left: 73px;
+    width: 47px;
+    height: 54px;
+    background-image: url(car2.png);
+    background-size: 100% 100%;
+}
+
+.mark {
+    position: absolute;
+    width: 34px;
+    height: 41px;
+    top : 403px;
+    left: 112px;
+    background-image : url(mark.png);
+    background-size: 100% 100%;
+}
+
+.path1 {
+    top : 0px;
+    width: 37px;
+    height: 639px;
+    position: absolute;
+    left: 300px;
+    background-image : url(path1.png);
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+.path2 {
+    top : 0px;
+    left: 0px;
+    width: 156px;
+    height: 72px;
+    position: absolute;
+    background-image : url(path2.png);
+    background-size: 100% 100%;
+}
+.setting {
+    top : 5px;
+    left: 296px;
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    background-image : url(setting.png);
+    background-size: 100% 100%;
+}
