@@ -1,0 +1,159 @@
+.map {
+    width: 360px; 
+    height: 640px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute;
+    background-image: url(map.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.path3 {
+    left: 83px;;
+    top : 0px;
+    width: 93px;
+    height: 640px;
+    position: absolute;
+    background-image : url(path3.png);
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+.car3 {
+    position: absolute;
+    top : 293px;
+    left: 134px;
+    width: 59.5px;
+    height: 54px;
+    background-image: url(car3.png);
+    background-size: 100% 100%;
+}
+.setting {
+    top : 5px;
+    left: 296px;
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    background-image : url(setting.png);
+    background-size: 100% 100%;
+}
+
+
+.text_box {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: AppleSDGothicNeoEB00;
+}
+
+.bottom_text_box {
+    position: absolute;
+    top : 598px;
+    left : 0;
+    width: 360px;
+    height: 42px;
+    border-radius: 20px 20px 0px 0px;
+    background: #5182FF;
+
+
+    color: #FFFFFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box {
+    position: absolute;
+    top : 345px;
+    left: 73px;
+    width: 220px;
+    height: 239px;
+    border-radius: 10px;
+    border: 3px solid #5182FF;
+    background: #FFF;
+}
+
+.inner_box {
+    padding-top: 5px;
+    padding-left: 5px;
+    position: absolute;
+    width: 220px;
+    height: 133px;
+    top: -3px;
+    left: -3px;
+    border-radius: 10px 10px 0px 0px;
+    background: #5182FF;
+    color: #FFF;
+    font-family: AppleSDGothicNeoEB00;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.start {
+    position: absolute;
+    top: 47px;
+    left: 3px;
+    width: 180px;
+    height: 35px;
+    border-radius: 0px 8px 8px 0px;
+    background: #FFFFFF;
+}
+
+.end {
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    width: 180px;
+    height: 35px;
+    border-radius: 8px 0px 0px 8px;
+    background: #FFFFFF;
+
+}
+
+.rect {
+    position: absolute;
+    left: 21px;
+    width: 172px;
+    height: 22px;
+    border-radius: 7px;
+    border: 1px solid #F0F0F0;
+    background: #FFF;
+    color: #000;
+    font-family: AppleSDGothicNeoR00;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.r1 {
+    top : 150px;
+}
+
+.r2 {
+    top: 180px;
+}
+
+.plus {
+    position: absolute;;
+    top: 210px;
+    left: 97px;
+    width: 26px;
+    height: 14px;
+    color: #D6D6D6;
+    font-family: AppleSDGothicNeoB00;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+input:focus {outline: none;} /* outline 테두리 없애기 */
